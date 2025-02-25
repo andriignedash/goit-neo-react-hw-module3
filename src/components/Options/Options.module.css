@@ -1,0 +1,36 @@
+.optionsContainer {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:nth-child(1) {
+  background-color: green;
+  color: white;
+}
+
+button:nth-child(2) {
+  background-color: gray;
+  color: white;
+}
+
+button:nth-child(3) {
+  background-color: red;
+  color: white;
+}
+
+button:nth-child(4) {
+  background-color: black;
+  color: white;
+}
